@@ -1,0 +1,348 @@
+{
+  "common": {
+    "welcome": "ようこそ、仲間",
+    "loading": "読み込み中...",
+    "error": "エラー",
+    "success": "成功",
+    "cancel": "キャンセル",
+    "confirm": "確認",
+    "save": "保存",
+    "delete": "削除",
+    "edit": "編集",
+    "close": "閉じる",
+    "back": "戻る",
+    "next": "次へ",
+    "previous": "前へ",
+    "search": "検索",
+    "filter": "フィルター",
+    "sort": "並び替え",
+    "share": "共有",
+    "copy": "コピー",
+    "copied": "コピーしました",
+    "download": "ダウンロード",
+    "upload": "アップロード"
+  },
+  "nav": {
+    "home": "ホーム",
+    "gallery": "ギャラリー",
+    "community": "コミュニティ",
+    "mix": "コミュニティMIX",
+    "haki": "覇気",
+    "profile": "プロフィール",
+    "settings": "設定",
+    "admin": "管理"
+  },
+  "waitlist": {
+    "title": "仲間になろう",
+    "subtitle": "NAKAMAになってGenesisにアクセス",
+    "description": "ここにはアーティストはいない、仲間がいる。1人の成功は全員の成功。",
+    "benefits": {
+      "title": "NAKAMAの特典",
+      "1": "無料VHS 1本（審査なし）",
+      "2": "無料カセット 1本（審査なし）",
+      "3": "無料ボード 1枚（審査なし）",
+      "4": "エアドロップ早期アクセス",
+      "5": "限定Early NAKAMAバッジ",
+      "6": "参加時に+50覇気"
+    },
+    "form": {
+      "wallet": "ウォレットを接続",
+      "walletConnected": "ウォレット接続済み",
+      "email": "メール（任意）",
+      "emailPlaceholder": "your@email.com",
+      "discord": "Discord（任意）",
+      "discordPlaceholder": "username#1234",
+      "twitter": "Twitter（任意）",
+      "twitterPlaceholder": "@username",
+      "roles": "役割を選択",
+      "rolesPlaceholder": "NAKAMA OSで何をしたいですか？",
+      "roleOptions": {
+        "creator": "コンテンツクリエイター",
+        "curator": "音楽キュレーター",
+        "artist": "ビジュアルアーティスト",
+        "developer": "開発者",
+        "moderator": "モデレーター",
+        "community": "コミュニティマネージャー"
+      },
+      "submit": "仲間に加わる",
+      "submitting": "参加中...",
+      "success": "仲間へようこそ！",
+      "error": "参加エラー。もう一度お試しください。"
+    },
+    "alreadyIn": "すでに仲間です",
+    "quota": "利用可能: {{vhs}} VHS、{{cassette}} カセット、{{board}} ボード"
+  },
+  "mix": {
+    "title": "コミュニティMIX",
+    "subtitle": "仲間による、仲間のためのコンテンツ",
+    "tabs": {
+      "vhs": "VHS",
+      "cassette": "カセット",
+      "board": "ボード",
+      "all": "すべて"
+    },
+    "drop": {
+      "title": "コンテンツをドロップ",
+      "subtitle": "ウェイトリスト仲間は即時公開",
+      "vhs": {
+        "title": "VHSをドロップ（動画）",
+        "urlLabel": "動画URL",
+        "urlPlaceholder": "https://youtube.com/watch?v=...",
+        "titleLabel": "タイトル",
+        "titlePlaceholder": "AMV ARCHIVE V.3",
+        "descriptionLabel": "説明",
+        "descriptionPlaceholder": "動画を説明...",
+        "coverLabel": "カバー画像（URL）",
+        "coverPlaceholder": "https://...",
+        "tracksLabel": "トラック（任意）",
+        "addTrack": "トラックを追加",
+        "trackTitle": "トラックタイトル",
+        "trackTimestamp": "タイムスタンプ（例: 0:00）",
+        "submit": "VHSを公開",
+        "quotaExceeded": "VHSクォータを使い切りました",
+        "success": "VHS公開！+100覇気獲得"
+      },
+      "cassette": {
+        "title": "カセットをドロップ（音楽）",
+        "urlLabel": "音楽URL",
+        "urlPlaceholder": "https://spotify.com/track/... または SoundCloud",
+        "titleLabel": "タイトル",
+        "titlePlaceholder": "SYNTHWAVE MIX",
+        "descriptionLabel": "説明",
+        "descriptionPlaceholder": "カセットを説明...",
+        "coverLabel": "カバー画像（URL）",
+        "coverPlaceholder": "https://...",
+        "tracksLabel": "トラック",
+        "addTrack": "トラックを追加",
+        "trackTitle": "トラックタイトル",
+        "trackTimestamp": "タイムスタンプ（例: 0:00）",
+        "submit": "カセットを公開",
+        "quotaExceeded": "カセットクォータを使い切りました",
+        "success": "カセット公開！+100覇気獲得"
+      },
+      "board": {
+        "title": "ボードをドロップ（アート）",
+        "titleLabel": "ボードタイトル",
+        "titlePlaceholder": "サイバーパンクアート",
+        "descriptionLabel": "説明",
+        "descriptionPlaceholder": "作品を説明...",
+        "submit": "ボードを作成",
+        "quotaExceeded": "ボードクォータを使い切りました",
+        "success": "ボード作成！+150覇気獲得"
+      }
+    },
+    "card": {
+      "by": "作者",
+      "views": "閲覧",
+      "votes": "投票",
+      "upvote": "いいね",
+      "downvote": "よくない",
+      "comment": "コメント",
+      "share": "共有",
+      "report": "報告",
+      "play": "再生",
+      "addToQueue": "キューに追加",
+      "addToFavorites": "お気に入りに追加"
+    },
+    "empty": {
+      "title": "まだコンテンツがありません",
+      "subtitle": "最初にコンテンツをドロップ",
+      "cta": "ドロップ"
+    },
+    "filter": {
+      "trending": "トレンド",
+      "recent": "最新",
+      "topVoted": "人気",
+      "mostViewed": "最も閲覧"
+    }
+  },
+  "haki": {
+    "title": "覇気システム",
+    "subtitle": "コミュニティへの貢献でポイント獲得",
+    "level": "レベル",
+    "points": "ポイント",
+    "rank": "ランク",
+    "nextRank": "次のランク",
+    "progress": "進捗",
+    "ranks": {
+      "choreboy": "雑用係",
+      "cadet": "士官候補生",
+      "seaman": "水兵",
+      "officer": "士官",
+      "commander": "司令官",
+      "captain": "船長",
+      "admiral": "大将",
+      "yonko": "四皇",
+      "pirateking": "海賊王"
+    },
+    "earn": "覇気を獲得:",
+    "actions": {
+      "join": "ウェイトリスト参加",
+      "dropVhs": "VHS公開",
+      "dropCassette": "カセット公開",
+      "dropBoard": "ボード作成",
+      "vote": "コンテンツ投票",
+      "comment": "コメント",
+      "share": "共有",
+      "daily": "毎日ログイン",
+      "streak": "ログイン連続",
+      "achievement": "実績解除"
+    },
+    "history": {
+      "title": "覇気履歴",
+      "empty": "まだ覇気を獲得していません",
+      "event": "イベント",
+      "points": "ポイント",
+      "date": "日付"
+    },
+    "leaderboard": {
+      "title": "リーダーボード",
+      "position": "順位",
+      "nakama": "仲間",
+      "haki": "覇気",
+      "rank": "ランク"
+    }
+  },
+  "antiMarina": {
+    "title": "アンチマリーナシステム",
+    "subtitle": "アンチマリーナシステムで保護",
+    "description": "海軍は権威主義的な支配を表す。私たちは自由だが責任ある海賊だ。",
+    "rules": {
+      "title": "仲間のルール",
+      "1": "スパム禁止",
+      "2": "ボット禁止",
+      "3": "毒性禁止",
+      "4": "仲間同士の尊重",
+      "5": "違法コンテンツ禁止",
+      "6": "投票操作禁止"
+    },
+    "violations": {
+      "warning": "警告",
+      "tempBan": "一時停止",
+      "permBan": "仲間から追放"
+    },
+    "report": {
+      "title": "コンテンツを報告",
+      "reason": "報告理由",
+      "reasonPlaceholder": "このコンテンツを報告する理由を説明...",
+      "submit": "報告を送信",
+      "success": "報告送信済み。仲間を守ってくれてありがとう。",
+      "types": {
+        "spam": "スパム",
+        "toxicity": "毒性",
+        "copyright": "著作権侵害",
+        "illegal": "違法コンテンツ",
+        "other": "その他"
+      }
+    }
+  },
+  "chat": {
+    "title": "BeatBunnyとチャット",
+    "placeholder": "メッセージを入力...",
+    "send": "送信",
+    "typing": "BeatBunnyが入力中...",
+    "offline": "BeatBunnyは寝ています",
+    "wake": "起こす",
+    "commands": {
+      "help": "/help - コマンドを表示",
+      "haki": "/haki - 覇気を表示",
+      "stats": "/stats - 統計を表示",
+      "recommend": "/recommend - 音楽を推薦"
+    }
+  },
+  "profile": {
+    "title": "プロフィール",
+    "myContent": "マイコンテンツ",
+    "favorites": "お気に入り",
+    "following": "フォロー中",
+    "followers": "フォロワー",
+    "haki": "覇気",
+    "rank": "ランク",
+    "joined": "参加日",
+    "badges": "バッジ",
+    "stats": {
+      "vhs": "VHS公開数",
+      "cassettes": "カセット公開数",
+      "boards": "ボード作成数",
+      "votes": "投票数",
+      "comments": "コメント数"
+    }
+  },
+  "skins": {
+    "title": "スキン",
+    "subtitle": "体験をカスタマイズ",
+    "categories": {
+      "boombox": "ブームボックス",
+      "vhs": "VHS",
+      "cassette": "カセット",
+      "background": "背景",
+      "beatbunny": "BeatBunny"
+    },
+    "unlock": "解除",
+    "unlocked": "解除済み",
+    "locked": "ロック中",
+    "requires": "{{haki}}覇気必要",
+    "exclusive": "Early NAKAMA限定",
+    "apply": "適用",
+    "preview": "プレビュー"
+  },
+  "nakamaOS": {
+    "title": "NAKAMA OS",
+    "subtitle": "未来が待っている",
+    "comingSoon": "近日公開",
+    "description": "完全なNAKAMA OSエコシステム体験がまもなく利用可能になります。",
+    "airdrop": {
+      "title": "$BELLY & $NAKAMASエアドロップ",
+      "eligibility": "資格",
+      "yourHaki": "あなたの覇気",
+      "estimatedTokens": "推定トークン",
+      "countdown": "カウントダウン"
+    },
+    "badges": {
+      "title": "限定バッジ",
+      "earlyNakama": "Early NAKAMA",
+      "genesis": "Genesis",
+      "founder": "創設者"
+    }
+  },
+  "player": {
+    "play": "再生",
+    "pause": "一時停止",
+    "next": "次へ",
+    "previous": "前へ",
+    "shuffle": "シャッフル",
+    "repeat": "リピート",
+    "volume": "音量",
+    "mute": "ミュート",
+    "unmute": "ミュート解除",
+    "queue": "キュー",
+    "nowPlaying": "再生中",
+    "eject": "取り出す",
+    "insert": "挿入",
+    "flip": "反転",
+    "rewind": "巻き戻し"
+  },
+  "settings": {
+    "title": "設定",
+    "language": "言語",
+    "theme": "テーマ",
+    "sounds": "サウンド",
+    "soundsEnabled": "サウンド有効",
+    "soundsVolume": "サウンド音量",
+    "notifications": "通知",
+    "notificationsEnabled": "通知有効",
+    "privacy": "プライバシー",
+    "account": "アカウント",
+    "disconnect": "ウォレット切断",
+    "deleteAccount": "アカウント削除"
+  },
+  "errors": {
+    "generic": "問題が発生しました。もう一度お試しください。",
+    "network": "ネットワークエラー。接続を確認してください。",
+    "unauthorized": "未承認。ウォレットを接続してください。",
+    "forbidden": "この操作を行う権限がありません。",
+    "notFound": "見つかりません。",
+    "rateLimit": "リクエストが多すぎます。しばらくお待ちください。",
+    "validation": "無効なデータ。フォームを確認してください。"
+  }
+}

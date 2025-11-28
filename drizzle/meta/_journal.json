@@ -1,0 +1,34 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1763942675026,
+      "tag": "0000_lying_karen_page",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1763944494660,
+      "tag": "0001_huge_mentor",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1764110626766,
+      "tag": "0002_far_secret_warriors",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1764202052707,
+      "tag": "0003_broad_doctor_faustus",
+      "breakpoints": true
+    }
+  ]
+}

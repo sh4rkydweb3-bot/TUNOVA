@@ -1,0 +1,348 @@
+{
+  "common": {
+    "welcome": "Welcome, NAKAMA",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "share": "Share",
+    "copy": "Copy",
+    "copied": "Copied",
+    "download": "Download",
+    "upload": "Upload"
+  },
+  "nav": {
+    "home": "Home",
+    "gallery": "Gallery",
+    "community": "Community",
+    "mix": "Community MIX",
+    "haki": "Haki",
+    "profile": "Profile",
+    "settings": "Settings",
+    "admin": "Admin"
+  },
+  "waitlist": {
+    "title": "Join the Crew",
+    "subtitle": "Become a NAKAMA and access Genesis",
+    "description": "Here there are no artists, here there are NAKAMAS. The success of 1 is the success of all.",
+    "benefits": {
+      "title": "NAKAMA Benefits",
+      "1": "1 free VHS without review",
+      "2": "1 free Cassette without review",
+      "3": "1 free Board without review",
+      "4": "Early access to Airdrop",
+      "5": "Exclusive Early NAKAMA badges",
+      "6": "+50 Haki on joining"
+    },
+    "form": {
+      "wallet": "Connect your Wallet",
+      "walletConnected": "Wallet Connected",
+      "email": "Email (optional)",
+      "emailPlaceholder": "your@email.com",
+      "discord": "Discord (optional)",
+      "discordPlaceholder": "username#1234",
+      "twitter": "Twitter (optional)",
+      "twitterPlaceholder": "@username",
+      "roles": "Select your roles",
+      "rolesPlaceholder": "What would you like to do in NAKAMA OS?",
+      "roleOptions": {
+        "creator": "Content Creator",
+        "curator": "Music Curator",
+        "artist": "Visual Artist",
+        "developer": "Developer",
+        "moderator": "Moderator",
+        "community": "Community Manager"
+      },
+      "submit": "Join the Crew",
+      "submitting": "Joining...",
+      "success": "Welcome to the crew, NAKAMA!",
+      "error": "Error joining. Please try again."
+    },
+    "alreadyIn": "You're already part of the crew",
+    "quota": "You have available: {{vhs}} VHS, {{cassette}} Cassette, {{board}} Board"
+  },
+  "mix": {
+    "title": "Community MIX",
+    "subtitle": "Content created by NAKAMAS, for NAKAMAS",
+    "tabs": {
+      "vhs": "VHS",
+      "cassette": "Cassettes",
+      "board": "Boards",
+      "all": "All"
+    },
+    "drop": {
+      "title": "Drop your Content",
+      "subtitle": "Instant publication for NAKAMAS on waitlist",
+      "vhs": {
+        "title": "Drop VHS (Video)",
+        "urlLabel": "Video URL",
+        "urlPlaceholder": "https://youtube.com/watch?v=...",
+        "titleLabel": "Title",
+        "titlePlaceholder": "AMV ARCHIVE V.3",
+        "descriptionLabel": "Description",
+        "descriptionPlaceholder": "Describe your video...",
+        "coverLabel": "Cover Image (URL)",
+        "coverPlaceholder": "https://...",
+        "tracksLabel": "Tracks (optional)",
+        "addTrack": "Add Track",
+        "trackTitle": "Track title",
+        "trackTimestamp": "Timestamp (e.g. 0:00)",
+        "submit": "Publish VHS",
+        "quotaExceeded": "You've used your VHS quota",
+        "success": "VHS published! +100 Haki earned"
+      },
+      "cassette": {
+        "title": "Drop Cassette (Audio)",
+        "urlLabel": "Music URL",
+        "urlPlaceholder": "https://spotify.com/track/... or SoundCloud",
+        "titleLabel": "Title",
+        "titlePlaceholder": "SYNTHWAVE MIX",
+        "descriptionLabel": "Description",
+        "descriptionPlaceholder": "Describe your cassette...",
+        "coverLabel": "Cover Image (URL)",
+        "coverPlaceholder": "https://...",
+        "tracksLabel": "Tracks",
+        "addTrack": "Add Track",
+        "trackTitle": "Track title",
+        "trackTimestamp": "Timestamp (e.g. 0:00)",
+        "submit": "Publish Cassette",
+        "quotaExceeded": "You've used your Cassette quota",
+        "success": "Cassette published! +100 Haki earned"
+      },
+      "board": {
+        "title": "Drop Board (Art)",
+        "titleLabel": "Board Title",
+        "titlePlaceholder": "My Cyberpunk Art",
+        "descriptionLabel": "Description",
+        "descriptionPlaceholder": "Describe your artwork...",
+        "submit": "Create Board",
+        "quotaExceeded": "You've used your Board quota",
+        "success": "Board created! +150 Haki earned"
+      }
+    },
+    "card": {
+      "by": "by",
+      "views": "views",
+      "votes": "votes",
+      "upvote": "Like",
+      "downvote": "Dislike",
+      "comment": "Comment",
+      "share": "Share",
+      "report": "Report",
+      "play": "Play",
+      "addToQueue": "Add to queue",
+      "addToFavorites": "Add to favorites"
+    },
+    "empty": {
+      "title": "No content yet",
+      "subtitle": "Be the first to drop content",
+      "cta": "Drop Content"
+    },
+    "filter": {
+      "trending": "Trending",
+      "recent": "Recent",
+      "topVoted": "Top Voted",
+      "mostViewed": "Most Viewed"
+    }
+  },
+  "haki": {
+    "title": "Haki System",
+    "subtitle": "Earn points by contributing to the community",
+    "level": "Level",
+    "points": "Points",
+    "rank": "Rank",
+    "nextRank": "Next rank",
+    "progress": "Progress",
+    "ranks": {
+      "choreboy": "Chore Boy",
+      "cadet": "Cadet",
+      "seaman": "Seaman",
+      "officer": "Officer",
+      "commander": "Commander",
+      "captain": "Captain",
+      "admiral": "Admiral",
+      "yonko": "Yonko",
+      "pirateking": "Pirate King"
+    },
+    "earn": "Earn Haki by:",
+    "actions": {
+      "join": "Joining waitlist",
+      "dropVhs": "Publishing VHS",
+      "dropCassette": "Publishing Cassette",
+      "dropBoard": "Creating Board",
+      "vote": "Voting content",
+      "comment": "Commenting",
+      "share": "Sharing",
+      "daily": "Daily login",
+      "streak": "Login streak",
+      "achievement": "Achievement unlocked"
+    },
+    "history": {
+      "title": "Haki History",
+      "empty": "You haven't earned Haki yet",
+      "event": "Event",
+      "points": "Points",
+      "date": "Date"
+    },
+    "leaderboard": {
+      "title": "Leaderboard",
+      "position": "Position",
+      "nakama": "NAKAMA",
+      "haki": "Haki",
+      "rank": "Rank"
+    }
+  },
+  "antiMarina": {
+    "title": "Anti-Marina System",
+    "subtitle": "Protected by the Anti-Marina System",
+    "description": "The Marina represents authoritarian control. We are free but responsible pirates.",
+    "rules": {
+      "title": "Crew Rules",
+      "1": "No spam",
+      "2": "No bots",
+      "3": "No toxicity",
+      "4": "Respect between NAKAMAS",
+      "5": "No illegal content",
+      "6": "No vote manipulation"
+    },
+    "violations": {
+      "warning": "Warning",
+      "tempBan": "Temporary suspension",
+      "permBan": "Crew expulsion"
+    },
+    "report": {
+      "title": "Report Content",
+      "reason": "Report reason",
+      "reasonPlaceholder": "Describe why you're reporting this content...",
+      "submit": "Send Report",
+      "success": "Report sent. Thanks for protecting the crew.",
+      "types": {
+        "spam": "Spam",
+        "toxicity": "Toxicity",
+        "copyright": "Copyright violation",
+        "illegal": "Illegal content",
+        "other": "Other"
+      }
+    }
+  },
+  "chat": {
+    "title": "Chat with BeatBunny",
+    "placeholder": "Type a message...",
+    "send": "Send",
+    "typing": "BeatBunny is typing...",
+    "offline": "BeatBunny is sleeping",
+    "wake": "Wake up",
+    "commands": {
+      "help": "/help - Show commands",
+      "haki": "/haki - View your Haki",
+      "stats": "/stats - View stats",
+      "recommend": "/recommend - Recommend music"
+    }
+  },
+  "profile": {
+    "title": "Profile",
+    "myContent": "My Content",
+    "favorites": "Favorites",
+    "following": "Following",
+    "followers": "Followers",
+    "haki": "Haki",
+    "rank": "Rank",
+    "joined": "Joined",
+    "badges": "Badges",
+    "stats": {
+      "vhs": "VHS published",
+      "cassettes": "Cassettes published",
+      "boards": "Boards created",
+      "votes": "Votes given",
+      "comments": "Comments"
+    }
+  },
+  "skins": {
+    "title": "Skins",
+    "subtitle": "Customize your experience",
+    "categories": {
+      "boombox": "Boombox",
+      "vhs": "VHS",
+      "cassette": "Cassette",
+      "background": "Background",
+      "beatbunny": "BeatBunny"
+    },
+    "unlock": "Unlock",
+    "unlocked": "Unlocked",
+    "locked": "Locked",
+    "requires": "Requires {{haki}} Haki",
+    "exclusive": "Exclusive for Early NAKAMAS",
+    "apply": "Apply",
+    "preview": "Preview"
+  },
+  "nakamaOS": {
+    "title": "NAKAMA OS",
+    "subtitle": "The future awaits",
+    "comingSoon": "Coming Soon",
+    "description": "The complete NAKAMA OS ecosystem experience will be available soon.",
+    "airdrop": {
+      "title": "$BELLY & $NAKAMAS Airdrop",
+      "eligibility": "Eligibility",
+      "yourHaki": "Your Haki",
+      "estimatedTokens": "Estimated tokens",
+      "countdown": "Countdown"
+    },
+    "badges": {
+      "title": "Exclusive Badges",
+      "earlyNakama": "Early NAKAMA",
+      "genesis": "Genesis",
+      "founder": "Founder"
+    }
+  },
+  "player": {
+    "play": "Play",
+    "pause": "Pause",
+    "next": "Next",
+    "previous": "Previous",
+    "shuffle": "Shuffle",
+    "repeat": "Repeat",
+    "volume": "Volume",
+    "mute": "Mute",
+    "unmute": "Unmute",
+    "queue": "Queue",
+    "nowPlaying": "Now Playing",
+    "eject": "Eject",
+    "insert": "Insert",
+    "flip": "Flip",
+    "rewind": "Rewind"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "theme": "Theme",
+    "sounds": "Sounds",
+    "soundsEnabled": "Sounds enabled",
+    "soundsVolume": "Sounds volume",
+    "notifications": "Notifications",
+    "notificationsEnabled": "Notifications enabled",
+    "privacy": "Privacy",
+    "account": "Account",
+    "disconnect": "Disconnect Wallet",
+    "deleteAccount": "Delete account"
+  },
+  "errors": {
+    "generic": "Something went wrong. Please try again.",
+    "network": "Network error. Check your connection.",
+    "unauthorized": "Unauthorized. Connect your wallet.",
+    "forbidden": "You don't have permission to do this.",
+    "notFound": "Not found.",
+    "rateLimit": "Too many requests. Wait a moment.",
+    "validation": "Invalid data. Check the form."
+  }
+}
